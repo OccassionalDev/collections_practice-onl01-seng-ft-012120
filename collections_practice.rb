@@ -15,7 +15,13 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  return array.collect do |element|
-    element.at(2) = "$"
+  new_array = []
+  
+  array.each do |element|
+    new_element = element
+    new_element[2] = "$"
+    new_array.push(new_element)
   end
+  
+  return new_array
 end
