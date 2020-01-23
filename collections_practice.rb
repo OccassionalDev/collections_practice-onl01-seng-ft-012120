@@ -7,5 +7,5 @@ def sort_array_desc(array)
 end
 
 def sort_array_count(array)
-  return array.sort_by()
+  return array.sort_by(|element| element.length)
 end
