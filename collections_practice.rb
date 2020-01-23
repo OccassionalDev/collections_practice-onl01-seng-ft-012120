@@ -59,6 +59,15 @@ def find_a(array)
   return new_array
 end
 
+def swap_elements(array)
+  temp_element = array[1]
+  
+  array[1] = array[2]
+  array[2] = temp_element
+  
+  return array
+end
+
 
 
 
