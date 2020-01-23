@@ -37,8 +37,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  return array.collect do |element, index|
-    if index != 1
+  return array.collect do |element|
+    if element == array.at(2)
       element += "s"
     end
   end
