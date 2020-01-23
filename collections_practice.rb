@@ -40,6 +40,9 @@ def add_s(array)
   return array.collect do |element|
     if element != array.at(1)
       element += "s"
+      
+    else 
+      element = element
     end
   end
 end
