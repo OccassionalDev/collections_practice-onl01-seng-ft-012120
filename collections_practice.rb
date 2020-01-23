@@ -9,3 +9,7 @@ end
 def sort_array_char_count(array)
   return array.sort_by!{|element| element.length}
 end
+
+def swap_elements
+  
+end
