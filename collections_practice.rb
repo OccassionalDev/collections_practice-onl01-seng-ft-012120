@@ -25,3 +25,13 @@ def kesha_maker(array)
   
   return new_array
 end
+
+def sum_array(array)
+  sum = 0
+  
+  array.each do |number|
+    sum += number
+  end
+  
+  return sum
+end
