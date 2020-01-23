@@ -46,3 +46,18 @@ def add_s(array)
     end
   end
 end
+
+def find_a(array)
+  array_start_with_a = []
+  
+  array.each do |element|
+    if element.starts_with?("a")
+      array_start_with_a.push(element)
+    end
+    
+  return array_start_with_a
+end
+
+
+
+
