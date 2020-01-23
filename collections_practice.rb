@@ -48,14 +48,15 @@ def add_s(array)
 end
 
 def find_a(array)
-  array_start_with_a = []
+  new_array = []
   
   array.each do |element|
     if element.starts_with?("a")
-      array_start_with_a.push(element)
+      new_array.push(element)
     end
+  end
     
-  return array_start_with_a
+  return new_array
 end
 
 
