@@ -51,7 +51,7 @@ def find_a(array)
   new_array = []
   
   array.each do |element|
-    if element.starts_with?("a")
+    if element.start_with?("a")
       new_array.push(element)
     end
   end
