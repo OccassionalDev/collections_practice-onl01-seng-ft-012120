@@ -35,3 +35,11 @@ def sum_array(array)
   
   return sum
 end
+
+def add_s(array)
+  return array.collect do |element, index|
+    if index != 1 
+      element += "s"
+    end
+  end
+end
