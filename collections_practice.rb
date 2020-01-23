@@ -16,6 +16,6 @@ end
 
 def kesha_maker(array)
   return array.collect do |element|
-    element[2] = "$"
+    element.at(2) = "$"
   end
 end
